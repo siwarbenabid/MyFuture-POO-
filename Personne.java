@@ -11,11 +11,11 @@ public class Personne {
             System.out.println("2 - Quitter");
             System.out.print("Votre choix : ");
             choix = sc.nextInt();
-            sc.nextLine(); // yenadhef el buffer ba3d nextInt
+            sc.nextLine(); //
 
             switch (choix) {
                 case 1:
-                    // ===== el programme mteek =====
+                    
                     System.out.println("saisir cin");
                     int cin = sc.nextInt();
                     sc.nextLine();
@@ -33,7 +33,7 @@ public class Personne {
                     System.out.println("nom : " + nom);
                     System.out.println("prénom : " + prenom);
                     System.out.println("ville : " + ville);
-                    // ===== fin el programme =====
+                    
                     break;
 
                 case 2:
